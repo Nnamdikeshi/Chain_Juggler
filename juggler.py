@@ -28,14 +28,17 @@ def menu():
     '''Display choices for user, return user choice'''
 
     print('''
-        1. Add Record
+        GLOBAL CHAINSAW JUGGLING DATA PROGRAM
+		Created by: Nnamdi Keshi
+		
+	1. Add Record
         2. View Records
         3. Search and Update
         4. Delete Record
         q. Quit
     ''')
 
-    choice = input('Enter your choice: Ex. "1"')
+    choice = input('Enter your choice: Ex. "1"\n\t - ')
 
     return choice
 
